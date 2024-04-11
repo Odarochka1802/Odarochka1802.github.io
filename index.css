@@ -1,0 +1,167 @@
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	max-width: 1140px;  
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+.site-header{
+	width:100%;
+	color: black;
+	padding: 20px;
+	background: white;
+box-sizing: border-box;
+}
+
+
+.h-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.h-logo {
+	display: flex;   /* Включение flexbox */
+	flex-direction: row; /* направление расположения блоков относительно oX слева направо */
+	align-items: center;
+	flex-grow: 1;
+}
+
+.h-menu {
+	flex-grow: 3;
+}
+
+
+.mitem{
+	list-style: none;
+}
+
+.logo {
+	margin-right: 15px;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+
+.mlink{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+}
+
+
+/* Дополнительно */
+
+.mlink{
+	text-transform: uppercase;
+	font-weight: light;
+	margin-top: 20px;
+}
+
+/* BANNER */
+
+.preview-product{
+	padding: 100px 0;
+	background: url(img/preview.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.prew-title{
+	font-size: 30px;
+}
+.prew-title, .prew-description{
+	text-align: center;
+	color: white;
+}
+
+
+.prew-text-1{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+/* CARDS */
+
+.product-cont{
+	padding: 50px 0px;
+}
+
+.products-title, .products-description{
+	color: #151c39;
+	text-align: center;
+}
+
+.product{
+	padding: 25px;
+	margin-top: 45px;
+	width: 25%;
+	background: white;
+	border: 1px #000000 solid;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.product-link{
+	text-decoration: none;
+	color: white;
+}
+
+.products-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.product-button{
+	text-align: center;
+	background: #8193d8;
+	padding: 10px 70px;
+	border-radius: 10px;
+}
+
+
+.product-title, .product-text{
+	margin-bottom: 10px;
+}
+
+/* Дополнительно */
+
+.product-button{
+	cursor: pointer;
+}
+
+/* FOOTER */
+
+.site-footer{
+	background: url(img/footer.png);
+	background-size: cover;
+	padding: 60px 0px;
+}
+
+.copyright{
+	color: white;
+}
+
+.footer-r {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+}
+
+.social-networks {
+	display: flex;
+	justify-content:center;
+	margin-bottom: 20px;
+}
